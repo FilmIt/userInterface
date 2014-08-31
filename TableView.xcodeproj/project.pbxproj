@@ -32,6 +32,9 @@
 		FB935CEF19B313860023CC33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEE19B313860023CC33 /* QuartzCore.framework */; };
 		FB935CF219B31B7B0023CC33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB935CF119B31B7B0023CC33 /* SecondViewController.m */; };
 		FB935CF519B32B840023CC33 /* extra.m in Sources */ = {isa = PBXBuildFile; fileRef = FB935CF419B32B840023CC33 /* extra.m */; };
+		FB97FEB919B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */; };
+		FB97FEBB19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v in Resources */ = {isa = PBXBuildFile; fileRef = FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */; };
+		FBC8F3D619B3519C002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */; };
 		FBF2A70E19B1DF6C00D629FE /* iphone5_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF2A70D19B1DF6C00D629FE /* iphone5_intro.png */; };
 		FBF2A71019B1E19B00D629FE /* iphone5_intro_converted.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF2A70F19B1E19B00D629FE /* iphone5_intro_converted.png */; };
 		FBF2A71219B1E85100D629FE /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF2A71119B1E85100D629FE /* record.png */; };
@@ -82,6 +85,9 @@
 		FB935CF119B31B7B0023CC33 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FB935CF319B32B840023CC33 /* extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extra.h; sourceTree = "<group>"; };
 		FB935CF419B32B840023CC33 /* extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extra.m; sourceTree = "<group>"; };
+		FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "selena gomez  the scene - a year without rain.m4v"; sourceTree = "<group>"; };
+		FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "david archuleta - crush (lyrics).m4v"; sourceTree = "<group>"; };
+		FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4"; sourceTree = "<group>"; };
 		FBF2A70D19B1DF6C00D629FE /* iphone5_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5_intro.png; sourceTree = "<group>"; };
 		FBF2A70F19B1E19B00D629FE /* iphone5_intro_converted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5_intro_converted.png; sourceTree = "<group>"; };
 		FBF2A71119B1E85100D629FE /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
@@ -176,6 +182,9 @@
 		FB8D32B719B1AC1200E6B526 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */,
+				FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */,
+				FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */,
 				FBF2A70F19B1E19B00D629FE /* iphone5_intro_converted.png */,
 				FBF2A71319B1E85800D629FE /* projects.png */,
 				FBF2A71119B1E85100D629FE /* record.png */,
@@ -288,6 +297,9 @@
 			files = (
 				FB27DB7619B1CE6C00EBE02F /* new.png in Resources */,
 				FBF2A71219B1E85100D629FE /* record.png in Resources */,
+				FBC8F3D619B3519C002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 in Resources */,
+				FB97FEBB19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v in Resources */,
+				FB97FEB919B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v in Resources */,
 				FBF2A70E19B1DF6C00D629FE /* iphone5_intro.png in Resources */,
 				FBF2A71019B1E19B00D629FE /* iphone5_intro_converted.png in Resources */,
 				FB8D32C919B1AC1200E6B526 /* Images.xcassets in Resources */,
