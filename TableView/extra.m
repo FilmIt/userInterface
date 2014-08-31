@@ -8,6 +8,8 @@
 
 #import "extra.h"
 @implementation extra
+
+
 - (IBAction)records:(id)sender {
     UIImagePickerController *videoScreen = [[UIImagePickerController alloc] init];
     videoScreen.sourceType = UIImagePickerControllerSourceTypeCamera;
@@ -26,7 +28,8 @@
     [self dismissViewControllerAnimated:NO completion:NO];
     // Handle a movie capture
     if (CFStringCompare ((__bridge_retained CFStringRef) mediaType, kUTTypeMovie, 0) == kCFCompareEqualTo) {
-        NSString *moviePath = [[info objectForKey:UIImagePickerControllerMediaURL] path];
+        NSURL *movieURL = [info objectForKey:UIImagePickerControllerMediaURL];
+        NSString *moviePath= movieURL.absoluteString;
         if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(moviePath)) {
             UISaveVideoAtPathToSavedPhotosAlbum(moviePath, self, nil, nil);
         }
