@@ -27,14 +27,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfJ-hn-rP3">
-                                <rect key="frame" x="138" y="323" width="45" height="36"/>
+                                <rect key="frame" x="143" y="323" width="45" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Gallery" image="gallery.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Gallery:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Frh-UK-EoH"/>
-                                    <segue destination="lvJ-Fx-UuB" kind="push" id="KTt-Uz-FZk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hts-zv-Kv0">
@@ -187,25 +186,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sjT-ma-zxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="962" y="-23"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="vqJ-z2-eHA">
-            <objects>
-                <viewController id="lvJ-Fx-UuB" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sSN-Ja-1ez"/>
-                        <viewControllerLayoutGuide type="bottom" id="Gva-kF-aMl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8ax-4M-n1U">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="wTF-ue-bpL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dYl-5f-nhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="525" y="109"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OzB-gw-i5V">

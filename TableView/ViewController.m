@@ -49,6 +49,14 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)Gallery:(id)sender {
+   
+        UIImagePickerController *mediaLibrary = [[UIImagePickerController alloc] init];
+        mediaLibrary.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+        mediaLibrary.mediaTypes = [[NSArray alloc] initWithObjects: (NSString *) kUTTypeMovie, nil];
+        
+        mediaLibrary.allowsEditing = NO;
+        [self presentViewController:mediaLibrary animated:YES completion:NO];
+    
 }
 - (IBAction)Projects:(id)sender {
 }
