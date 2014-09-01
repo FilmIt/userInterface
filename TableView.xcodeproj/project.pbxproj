@@ -21,14 +21,14 @@
 		FB8D32D219B1AC1300E6B526 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8D32B419B1AC1200E6B526 /* UIKit.framework */; };
 		FB8D32DA19B1AC1300E6B526 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8D32D819B1AC1300E6B526 /* InfoPlist.strings */; };
 		FB8D32DC19B1AC1300E6B526 /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D32DB19B1AC1300E6B526 /* TableViewTests.m */; };
+		FB91458519B4ECF300E5A54E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91458419B4ECF300E5A54E /* SecondViewController.m */; };
+		FB91458819B4EE0B00E5A54E /* extra.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91458719B4EE0B00E5A54E /* extra.m */; };
 		FB935CE519B3133E0023CC33 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CE419B3133E0023CC33 /* AVFoundation.framework */; };
 		FB935CE719B3134E0023CC33 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CE619B3134E0023CC33 /* CoreMedia.framework */; };
 		FB935CE919B313550023CC33 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CE819B313550023CC33 /* AssetsLibrary.framework */; };
 		FB935CEB19B3135E0023CC33 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEA19B3135E0023CC33 /* MediaPlayer.framework */; };
 		FB935CED19B3137D0023CC33 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEC19B3137D0023CC33 /* MobileCoreServices.framework */; };
 		FB935CEF19B313860023CC33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEE19B313860023CC33 /* QuartzCore.framework */; };
-		FB935CF219B31B7B0023CC33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB935CF119B31B7B0023CC33 /* SecondViewController.m */; };
-		FB935CF519B32B840023CC33 /* extra.m in Sources */ = {isa = PBXBuildFile; fileRef = FB935CF419B32B840023CC33 /* extra.m */; };
 		FB97FEB919B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */; };
 		FB97FEBB19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v in Resources */ = {isa = PBXBuildFile; fileRef = FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */; };
 		FBC8F3D619B3519C002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */; };
@@ -68,16 +68,16 @@
 		FB8D32D719B1AC1300E6B526 /* TableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTests-Info.plist"; sourceTree = "<group>"; };
 		FB8D32D919B1AC1300E6B526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB8D32DB19B1AC1300E6B526 /* TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTests.m; sourceTree = "<group>"; };
+		FB91458319B4ECF300E5A54E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FB91458419B4ECF300E5A54E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FB91458619B4EE0B00E5A54E /* extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extra.h; sourceTree = "<group>"; };
+		FB91458719B4EE0B00E5A54E /* extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extra.m; sourceTree = "<group>"; };
 		FB935CE419B3133E0023CC33 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FB935CE619B3134E0023CC33 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		FB935CE819B313550023CC33 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FB935CEA19B3135E0023CC33 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FB935CEC19B3137D0023CC33 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FB935CEE19B313860023CC33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FB935CF019B31B7B0023CC33 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FB935CF119B31B7B0023CC33 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		FB935CF319B32B840023CC33 /* extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extra.h; sourceTree = "<group>"; };
-		FB935CF419B32B840023CC33 /* extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extra.m; sourceTree = "<group>"; };
 		FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "selena gomez  the scene - a year without rain.m4v"; sourceTree = "<group>"; };
 		FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "david archuleta - crush (lyrics).m4v"; sourceTree = "<group>"; };
 		FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4"; sourceTree = "<group>"; };
@@ -120,6 +120,8 @@
 		FB8D32A419B1AC1200E6B526 = {
 			isa = PBXGroup;
 			children = (
+				FB91458619B4EE0B00E5A54E /* extra.h */,
+				FB91458719B4EE0B00E5A54E /* extra.m */,
 				FB8D32B619B1AC1200E6B526 /* TableView */,
 				FB8D32D519B1AC1300E6B526 /* TableViewTests */,
 				FB8D32AF19B1AC1200E6B526 /* Frameworks */,
@@ -159,12 +161,10 @@
 				FB8D32BF19B1AC1200E6B526 /* AppDelegate.h */,
 				FB8D32C019B1AC1200E6B526 /* AppDelegate.m */,
 				FB8D32C219B1AC1200E6B526 /* Main.storyboard */,
-				FB935CF319B32B840023CC33 /* extra.h */,
-				FB935CF419B32B840023CC33 /* extra.m */,
+				FB91458319B4ECF300E5A54E /* SecondViewController.h */,
+				FB91458419B4ECF300E5A54E /* SecondViewController.m */,
 				FB8D32C619B1AC1200E6B526 /* ViewController.m */,
 				FB8D32C519B1AC1200E6B526 /* ViewController.h */,
-				FB935CF019B31B7B0023CC33 /* SecondViewController.h */,
-				FB935CF119B31B7B0023CC33 /* SecondViewController.m */,
 				FB8D32C819B1AC1200E6B526 /* Images.xcassets */,
 				FB8D32B719B1AC1200E6B526 /* Supporting Files */,
 			);
@@ -311,11 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB935CF219B31B7B0023CC33 /* SecondViewController.m in Sources */,
+				FB91458519B4ECF300E5A54E /* SecondViewController.m in Sources */,
 				FB8D32C719B1AC1200E6B526 /* ViewController.m in Sources */,
 				FB8D32C119B1AC1200E6B526 /* AppDelegate.m in Sources */,
 				FB8D32BD19B1AC1200E6B526 /* main.m in Sources */,
-				FB935CF519B32B840023CC33 /* extra.m in Sources */,
+				FB91458819B4EE0B00E5A54E /* extra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +381,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -399,6 +400,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9e90d03a-3a24-4b98-b9cc-35f463f629ea";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -419,7 +421,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -430,6 +433,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "9e90d03a-3a24-4b98-b9cc-35f463f629ea";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -440,10 +444,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableView/TableView-Prefix.pch";
 				INFOPLIST_FILE = "TableView/TableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9e90d03a-3a24-4b98-b9cc-35f463f629ea";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -453,10 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shahryar Khan (SBWGA78X5H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableView/TableView-Prefix.pch";
 				INFOPLIST_FILE = "TableView/TableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9e90d03a-3a24-4b98-b9cc-35f463f629ea";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
