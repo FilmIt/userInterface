@@ -21,7 +21,6 @@
 		FB8D32D219B1AC1300E6B526 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8D32B419B1AC1200E6B526 /* UIKit.framework */; };
 		FB8D32DA19B1AC1300E6B526 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8D32D819B1AC1300E6B526 /* InfoPlist.strings */; };
 		FB8D32DC19B1AC1300E6B526 /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D32DB19B1AC1300E6B526 /* TableViewTests.m */; };
-		FB91458519B4ECF300E5A54E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91458419B4ECF300E5A54E /* SecondViewController.m */; };
 		FB91458819B4EE0B00E5A54E /* extra.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91458719B4EE0B00E5A54E /* extra.m */; };
 		FB935CE519B3133E0023CC33 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CE419B3133E0023CC33 /* AVFoundation.framework */; };
 		FB935CE719B3134E0023CC33 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CE619B3134E0023CC33 /* CoreMedia.framework */; };
@@ -68,10 +67,8 @@
 		FB8D32D719B1AC1300E6B526 /* TableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTests-Info.plist"; sourceTree = "<group>"; };
 		FB8D32D919B1AC1300E6B526 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB8D32DB19B1AC1300E6B526 /* TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTests.m; sourceTree = "<group>"; };
-		FB91458319B4ECF300E5A54E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FB91458419B4ECF300E5A54E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		FB91458619B4EE0B00E5A54E /* extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extra.h; sourceTree = "<group>"; };
-		FB91458719B4EE0B00E5A54E /* extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = extra.m; sourceTree = "<group>"; };
+		FB91458619B4EE0B00E5A54E /* extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extra.h; path = ../extra.h; sourceTree = "<group>"; };
+		FB91458719B4EE0B00E5A54E /* extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = extra.m; path = ../extra.m; sourceTree = "<group>"; };
 		FB935CE419B3133E0023CC33 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FB935CE619B3134E0023CC33 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		FB935CE819B313550023CC33 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -120,8 +117,6 @@
 		FB8D32A419B1AC1200E6B526 = {
 			isa = PBXGroup;
 			children = (
-				FB91458619B4EE0B00E5A54E /* extra.h */,
-				FB91458719B4EE0B00E5A54E /* extra.m */,
 				FB8D32B619B1AC1200E6B526 /* TableView */,
 				FB8D32D519B1AC1300E6B526 /* TableViewTests */,
 				FB8D32AF19B1AC1200E6B526 /* Frameworks */,
@@ -158,11 +153,11 @@
 		FB8D32B619B1AC1200E6B526 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				FB91458619B4EE0B00E5A54E /* extra.h */,
+				FB91458719B4EE0B00E5A54E /* extra.m */,
 				FB8D32BF19B1AC1200E6B526 /* AppDelegate.h */,
 				FB8D32C019B1AC1200E6B526 /* AppDelegate.m */,
 				FB8D32C219B1AC1200E6B526 /* Main.storyboard */,
-				FB91458319B4ECF300E5A54E /* SecondViewController.h */,
-				FB91458419B4ECF300E5A54E /* SecondViewController.m */,
 				FB8D32C619B1AC1200E6B526 /* ViewController.m */,
 				FB8D32C519B1AC1200E6B526 /* ViewController.h */,
 				FB8D32C819B1AC1200E6B526 /* Images.xcassets */,
@@ -311,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB91458519B4ECF300E5A54E /* SecondViewController.m in Sources */,
 				FB8D32C719B1AC1200E6B526 /* ViewController.m in Sources */,
 				FB8D32C119B1AC1200E6B526 /* AppDelegate.m in Sources */,
 				FB8D32BD19B1AC1200E6B526 /* main.m in Sources */,

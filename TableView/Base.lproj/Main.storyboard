@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fhk-v5-oKc" kind="push" id="vIR-2H-tEa"/>
+                                    <action selector="RecordVideo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Dn-cq-TIH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfJ-hn-rP3">
@@ -133,40 +133,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xw4-fG-d5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="719" y="-738"/>
-        </scene>
-        <!--Second View Controller-->
-        <scene sceneID="x86-Gv-2R3">
-            <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" id="fhk-v5-oKc" customClass="SecondViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GGx-Va-yAD"/>
-                        <viewControllerLayoutGuide type="bottom" id="XOn-3s-iMm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YHV-DZ-3dj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJ5-Kg-xXn">
-                                <rect key="frame" x="119" y="496" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Capture">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="captureVideo:" destination="fhk-v5-oKc" eventType="touchUpInside" id="62w-W8-W2v"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="5bn-fJ-cWx"/>
-                    <connections>
-                        <outlet property="captureVideo" destination="wJ5-Kg-xXn" id="GWp-84-DKa"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dOn-cV-SEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="207" y="-1249"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dPC-yO-eTQ">
