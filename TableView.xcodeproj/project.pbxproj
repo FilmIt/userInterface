@@ -28,6 +28,8 @@
 		FB935CEB19B3135E0023CC33 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEA19B3135E0023CC33 /* MediaPlayer.framework */; };
 		FB935CED19B3137D0023CC33 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEC19B3137D0023CC33 /* MobileCoreServices.framework */; };
 		FB935CEF19B313860023CC33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB935CEE19B313860023CC33 /* QuartzCore.framework */; };
+		FB96D00819BB718700EB940B /* film_converted.png in Resources */ = {isa = PBXBuildFile; fileRef = FB96D00719BB718700EB940B /* film_converted.png */; };
+		FB96D00A19BB720400EB940B /* film.png in Resources */ = {isa = PBXBuildFile; fileRef = FB96D00919BB720400EB940B /* film.png */; };
 		FB97FEB919B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */; };
 		FB97FEBB19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v in Resources */ = {isa = PBXBuildFile; fileRef = FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */; };
 		FBC8F3D619B3519C002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */; };
@@ -75,6 +77,8 @@
 		FB935CEA19B3135E0023CC33 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		FB935CEC19B3137D0023CC33 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FB935CEE19B313860023CC33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB96D00719BB718700EB940B /* film_converted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = film_converted.png; sourceTree = "<group>"; };
+		FB96D00919BB720400EB940B /* film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = film.png; sourceTree = "<group>"; };
 		FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "selena gomez  the scene - a year without rain.m4v"; sourceTree = "<group>"; };
 		FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "david archuleta - crush (lyrics).m4v"; sourceTree = "<group>"; };
 		FBC8F3D519B3519B002ADFB0 /* David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "David Archuleta - A Little Too Not Over You [Official Music Video] & [Lyrics] HQ.MP4"; sourceTree = "<group>"; };
@@ -173,7 +177,9 @@
 				FB97FEB819B36C03008AEC28 /* selena gomez  the scene - a year without rain.m4v */,
 				FB97FEBA19B36E2D008AEC28 /* david archuleta - crush (lyrics).m4v */,
 				FBF2A70F19B1E19B00D629FE /* iphone5_intro_converted.png */,
+				FB96D00919BB720400EB940B /* film.png */,
 				FBF2A71319B1E85800D629FE /* projects.png */,
+				FB96D00719BB718700EB940B /* film_converted.png */,
 				FBF2A71119B1E85100D629FE /* record.png */,
 				FBF2A71519B1E85F00D629FE /* gallery.png */,
 				FB8D32B819B1AC1200E6B526 /* TableView-Info.plist */,
@@ -287,7 +293,9 @@
 				FBF2A71419B1E85800D629FE /* projects.png in Resources */,
 				FB8D32BB19B1AC1200E6B526 /* InfoPlist.strings in Resources */,
 				FBF2A71619B1E85F00D629FE /* gallery.png in Resources */,
+				FB96D00819BB718700EB940B /* film_converted.png in Resources */,
 				FB8D32C419B1AC1200E6B526 /* Main.storyboard in Resources */,
+				FB96D00A19BB720400EB940B /* film.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

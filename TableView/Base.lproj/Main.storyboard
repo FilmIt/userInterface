@@ -68,17 +68,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBD-XS-k0D">
-                                <rect key="frame" x="137" y="251" width="89" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="RecordAgain">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="RecordAgain:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i5p-XP-2pL"/>
-                                    <segue destination="Z1c-3f-cBR" kind="push" id="oUE-2e-Qxf"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -91,7 +80,6 @@
                         <outlet property="GalleryLabel" destination="QGB-l1-Mss" id="XcV-Oj-4cr"/>
                         <outlet property="ProjectLabel" destination="cn7-4n-SZP" id="bQg-m5-Oj7"/>
                         <outlet property="Projects" destination="hts-zv-Kv0" id="OoQ-Ik-uAX"/>
-                        <outlet property="RecordAgain" destination="bBD-XS-k0D" id="XCH-Nn-oD5"/>
                         <outlet property="RecordLabel" destination="0z3-qp-BoM" id="Ayn-l3-VMe"/>
                         <outlet property="RecordVideo" destination="rbq-69-QyY" id="zYV-DM-oMx"/>
                     </connections>
@@ -99,40 +87,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="82" y="-533"/>
-        </scene>
-        <!--Extra-->
-        <scene sceneID="caS-AG-PL3">
-            <objects>
-                <viewController id="Z1c-3f-cBR" customClass="extra" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OJD-5H-M8G"/>
-                        <viewControllerLayoutGuide type="bottom" id="dNH-6S-Hoj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MgY-0B-ZY1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw7-oo-W5O">
-                                <rect key="frame" x="115" y="482" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="captureVideo">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="records:" destination="Z1c-3f-cBR" eventType="touchUpInside" id="hz8-Nh-AUs"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="z1s-Nz-6Nt"/>
-                    <connections>
-                        <outlet property="records" destination="qw7-oo-W5O" id="UL6-Qu-48N"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xw4-fG-d5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="719" y="-738"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dPC-yO-eTQ">

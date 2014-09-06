@@ -16,14 +16,12 @@
 @implementation ViewController
 
 
-- (IBAction)RecordAgain:(id)sender {
-    
-}
+
 
 - (void)viewDidLoad
 {
     
-    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"iphone5_intro_converted.png"]];
+    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"film.png"]];
         
         backgroundView.contentMode = UIViewContentModeScaleAspectFit;
     
@@ -40,7 +38,7 @@
     [self.view bringSubviewToFront:_GalleryLabel];
      [self.view bringSubviewToFront:_Projects];
     [self.view bringSubviewToFront:_ProjectLabel];
-    [self.view bringSubviewToFront:_RecordAgain];
+    
        }
 
 - (void)didReceiveMemoryWarning
@@ -69,6 +67,7 @@
         picker.delegate =self;
         picker.allowsEditing = YES;
         picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        picker.videoMaximumDuration=15;
         picker.mediaTypes = [[NSArray alloc] initWithObjects: (NSString *) kUTTypeMovie, nil];
         
         [self presentViewController:picker animated:YES completion:NULL];
@@ -115,6 +114,19 @@
     
 }
 
+- (UIImage*)loadImage {
+    
+    AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:_videoURL options:nil];
+    AVAssetImageGenerator *generate = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+    NSError *err = NULL;
+    CMTime time = CMTimeMake(15, 1);
+    CGImageRef imgRef = [generate copyCGImageAtTime:time actualTime:NULL error:&err];
+    NSLog(@"err==%@, imageRef==%@", err, imgRef);
+    generate.appliesPreferredTrackTransform = YES;
+    return [[UIImage alloc] initWithCGImage:imgRef];
+  
+    
+}
 
     
 
