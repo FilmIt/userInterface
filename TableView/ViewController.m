@@ -21,7 +21,8 @@
 - (void)viewDidLoad
 {
     
-    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"film.png"]];
+//if ([UIScreen mainScreen].bounds.size.height == 568)
+     UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"film.png"]];
         
         backgroundView.contentMode = UIViewContentModeScaleAspectFit;
     
@@ -29,6 +30,8 @@
     
         [self.view addSubview:backgroundView];
         [super viewDidLoad];
+       
+    
         
        //backgroundView.contentMode = UIViewContentModeScaleAspectFit;
     //backgroundView.clipsToBounds = YES;
@@ -38,6 +41,13 @@
     [self.view bringSubviewToFront:_GalleryLabel];
      [self.view bringSubviewToFront:_Projects];
     [self.view bringSubviewToFront:_ProjectLabel];
+    
+    AVAsset *videoThumbnail = [AVAsset assetWithURL:_videoURL];
+    
+    [AVAssetImageGenerator assetImageGeneratorWithAsset:videoThumbnail];
+    
+    
+
     
        }
 
@@ -54,6 +64,10 @@
         
         mediaLibrary.allowsEditing = NO;
         [self presentViewController:mediaLibrary animated:YES completion:NO];
+    
+    
+    
+    
     
 }
 - (IBAction)Projects:(id)sender {
@@ -114,21 +128,59 @@
     
 }
 
+
+
 - (UIImage*)loadImage {
     
-    AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:_videoURL options:nil];
+   
+ //2nd method
+/* AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:self.urlForConevW options:nil];
+ AVAssetImageGenerator *generateImg = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+ NSError *error = NULL;
+ CMTime time = CMTimeMake(1, 65);
+ CGImageRef refImg = [generateImg copyCGImageAtTime:time actualTime:NULL error:&error];
+ NSLog(@"error==%@, Refimage==%@", error, refImg);
+ 
+ UIImage *FrameImage= [[UIImage alloc] initWithCGImage:refImg];
+*/
+    
+ //actual method
+    
+   AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:_videoURL options:nil];
     AVAssetImageGenerator *generate = [[AVAssetImageGenerator alloc] initWithAsset:asset];
     NSError *err = NULL;
-    CMTime time = CMTimeMake(15, 1);
-    CGImageRef imgRef = [generate copyCGImageAtTime:time actualTime:NULL error:&err];
-    NSLog(@"err==%@, imageRef==%@", err, imgRef);
     generate.appliesPreferredTrackTransform = YES;
-    return [[UIImage alloc] initWithCGImage:imgRef];
-  
+  //  Float64 durationSeconds =CMTimeGetSeconds([asset duration]);
+    CMTime time = CMTimeMakeWithSeconds(1, 2);
+    
+    CGImageRef imgRef = [generate copyCGImageAtTime:time actualTime:NULL error:&err];
+     UIImage *one = [[UIImage alloc] initWithCGImage:imgRef];
+  //  [_firstImage setImage:one];
+  //  _firstImage.contentMode = UIViewContentModeScaleAspectFit;
+   
+     
+ 
+   // return [[UIImage alloc] initWithCGImage:imgRef];
+    return one;
     
 }
 
+/*
+-(UIImage *)generateThumbImage : (NSString *)filepath
+{
+    NSURL *url = [NSURL fileURLWithPath:filepath];
     
+    AVAsset *asset = [AVAsset assetWithURL:url];
+    AVAssetImageGenerator *imageGenerator = [[AVAssetImageGenerator alloc]initWithAsset:asset];
+    CMTime time = [asset duration];
+    time.value = 6000;
+    CGImageRef imageRef = [imageGenerator copyCGImageAtTime:time actualTime:NULL error:NULL];
+    UIImage *thumbnail = [UIImage imageWithCGImage:imageRef];
+    CGImageRelease(imageRef);  // CGImageRef won't be released by ARC
+    
+    return thumbnail;
+}
+ */
 
 
 

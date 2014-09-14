@@ -9,8 +9,8 @@
             <objects>
                 <viewController autoresizesArchivedViewToFullSize="NO" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="74f-2k-XEy"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgR-pG-QAv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
@@ -74,7 +74,6 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="kic-CK-aDi"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="Gallery" destination="sfJ-hn-rP3" id="cBU-VA-KMK"/>
                         <outlet property="GalleryLabel" destination="QGB-l1-Mss" id="XcV-Oj-4cr"/>
@@ -93,8 +92,8 @@
             <objects>
                 <viewController id="r2X-fg-XnG" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UrQ-W3-1BI"/>
-                        <viewControllerLayoutGuide type="bottom" id="SbR-YQ-Yri"/>
+                        <viewControllerLayoutGuide type="top" id="Vub-Xw-JlT"/>
+                        <viewControllerLayoutGuide type="bottom" id="q13-DB-ijM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MIR-ba-GNv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -110,7 +109,7 @@
         <!--Navigation Controller-->
         <scene sceneID="OzB-gw-i5V">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BNu-K8-yiA" sceneMemberID="viewController">
+                <navigationController wantsFullScreenLayout="YES" automaticallyAdjustsScrollViewInsets="NO" id="BNu-K8-yiA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CFW-lE-Lep">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
